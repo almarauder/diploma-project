@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tort Tulik</title>
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Styles -->
+    <script src="styles/tailwind.config.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body class="bg-[#F3F4F1] min-h-screen flex flex-col antialiased selection:bg-[#1B362D] selection:text-white">
+
+    <!-- The layout renders the whole app into this element -->
+    <div id="root" class="contents"></div>
+
+    <!-- Components -->
+    <script src="components/Sidebar.js"></script>
+    <script src="components/Header.js"></script>
+    <script src="components/GreetingBanner.js"></script>
+    <script src="components/FarmSummaryCard.js"></script>
+    <script src="components/StatusCards.js"></script>
+    <script src="components/ScheduleTasks.js"></script>
+    <script src="components/HerdInspectionBanner.js"></script>
+    <script src="components/SyncNote.js"></script>
+    <script src="components/NotificationFilters.js"></script>
+    <script src="components/NotificationList.js"></script>
+    <script src="components/MobileNav.js"></script>
+    <script src="components/Modal.js"></script>
+
+    <!-- Pages -->
+    <script src="pages/DashboardPage.js"></script>
+    <script src="pages/NotificationsPage.js"></script>
+    <script src="pages/AnimalsPage.js"></script>
+    <script src="pages/ScanPage.js"></script>
+    <script src="pages/AiAgentPage.js"></script>
+    <script src="pages/ProfilePage.js"></script>
+
+    <!-- Routing + Layout (router.js starts the app) -->
+    <script src="routing/routes.js"></script>
+    <script src="layouts/AppLayout.js"></script>
+    <script src="routing/router.js"></script>
+</body>
+</html>
